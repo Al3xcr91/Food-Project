@@ -1,0 +1,27 @@
+.menu__list {
+  margin: 20px 0px;
+  padding: 10px;
+  background-color: black;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.menu__item {
+  background-color: darkkhaki;
+  margin-right: 5px;
+  list-style: none;
+  height: 6rem;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.item__title {
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin: 0;
+}

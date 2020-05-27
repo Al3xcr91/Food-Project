@@ -1,4 +1,4 @@
-.header__container {
+.header {
   background-color: lightcoral;
   display: flex;
   justify-content: space-between;
@@ -10,14 +10,14 @@
   width: 5rem;
 }
 
-.menu__container {
+.header__container {
   background-color: cadetblue;
   width: 70%;
   display: flex;
   align-items: center;
 }
 
-.menu__list {
+.header__list {
   padding: 0;
   list-style: none;
   margin: 0px;
@@ -39,6 +39,8 @@
 .list__item {
   text-decoration: none;
   color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .list__item:hover {

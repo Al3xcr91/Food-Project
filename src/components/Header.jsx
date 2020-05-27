@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 export class Header extends Component {
   render() {
     return (
-      <div className='header__container'>
+      <div className='header'>
         <Link className='header__logo' to='/'>
           <img src='' alt='Logo' />
         </Link>
-        <div className='menu__container'>
-          <ul className='menu__list'>
+        <div className='header__container'>
+          <ul className='header__list'>
             <li className='item__container'>
               <Link className='list__item' to='/menu'>Menu</Link>
             </li>

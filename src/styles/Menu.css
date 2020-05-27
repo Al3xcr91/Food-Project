@@ -1,0 +1,32 @@
+.menu {
+  background-color: blanchedalmond;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__title {
+  background-color: blue;
+  margin: 0;
+  height: 10%;
+}
+
+.menu__container {
+  height: 90%;
+  margin: 0;
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__text {
+  margin: 20px 0px;
+  background-color: khaki;
+  width: 30%;
+}
+
+.menu__img {
+  margin: 20px 0px;
+  width: 50%;
+  background-color: darkblue;
+}
