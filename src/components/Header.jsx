@@ -7,7 +7,6 @@ export class Header extends Component {
     return (
       <div className='header'>
         <Link className='header__logo' to='/'>
-          <img src='' alt='Logo' />
         </Link>
         <div className='header__container'>
           <ul className='header__list'>

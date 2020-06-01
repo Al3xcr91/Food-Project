@@ -1,16 +1,17 @@
 .menu__list {
   margin: 20px 0px;
   padding: 10px;
-  background-color: black;
-  width: 10%;
+  width: 15%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  background-color: rgba(34,40,49,0.2);
 }
 
 .menu__item {
-  background-color: darkkhaki;
+  background-color: rgba(34,40,49,1);
+  border: 1px solid black;
   margin-right: 5px;
   list-style: none;
   height: 6rem;
@@ -18,10 +19,24 @@
   text-decoration: none;
   font-size: 2rem;
   cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .item__title {
   font-size: 1.5rem;
   color: aliceblue;
   margin: 0;
+}
+
+.menu__p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  height: inherit;
+  color: #e2e2df;
+  font-size: 2rem;
 }

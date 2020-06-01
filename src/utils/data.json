@@ -1,0 +1,20 @@
+{
+  "name": [
+    "Menu 1",
+    "Menu 2",
+    "Menu 3",
+    "Menu 4"
+  ],
+  "text": [
+    "Este es el Menu 1",
+    "Este es el Menu 2",
+    "Este es el Menu 3",
+    "Este es el Menu 4"
+  ],
+  "img": [
+    "esta es la direccion de la imagen 1",
+    "esta es la direccion de la imagen 2",
+    "esta es la direccion de la imagen 3",
+    "esta es la direccion de la imagen 4"
+  ]
+}

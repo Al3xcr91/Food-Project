@@ -1,0 +1,16 @@
+.menu__item {
+  background-color: darkkhaki;
+  margin-right: 5px;
+  list-style: none;
+  height: 6rem;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.item__title {
+  font-size: 1.5rem;
+  color: aliceblue;
+  margin: 0;
+}

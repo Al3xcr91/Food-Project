@@ -1,0 +1,41 @@
+.menu {
+  height: 33.7rem;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  height: 33.45rem;
+}
+
+.menu__title {
+  background: #252422;
+  margin: 0;
+  padding-left: 20px;
+  height: 15%;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+
+.menu__container {
+  height: 90%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px;
+}
+
+.img__container {
+  margin: 20px 0px;
+  width: 50%;
+}
+
+.img__container img {
+  background-color: rgba(34,40,49,1);
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid rgba(57,62,70,1);
+  padding: 5px;
+  border-radius: 10px;
+}

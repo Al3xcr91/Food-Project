@@ -1,5 +1,10 @@
 .menu__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px 0px;
-  background-color: khaki;
-  width: 30%;
+  background-color: rgba(57,62,70,0.8);
+  color: aliceblue;
+  width: 25%;
+  padding: 15px;
 }
