@@ -1,0 +1,7 @@
+.envios {
+  display: flex;
+  flex-direction: column;
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+}
