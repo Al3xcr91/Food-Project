@@ -6,6 +6,7 @@ export class Envios extends Component {
   render() {
     return (
       <div className='envios'>
+        <h1 className='envios__title'>Fire #7 Burgers</h1>
         <EnvioForm />
       </div>
     )
